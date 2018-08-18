@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dubbo="http://code.alibabatech.com/schema/dubbo"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+http://www.springframework.org/schema/context
+http://www.springframework.org/schema/context/spring-context-3.0.xsd
+http://code.alibabatech.com/schema/dubbo
+http://code.alibabatech.com/schema/dubbo/dubbo.xsd">
+	<dubbo:service interface="com.rsr.service.PInvoiceAccountPhotoService"
+		ref="PInvoiceAccountPhotoServiceImpl" timeout="1200000" />
+	<dubbo:service interface="com.rsr.service.PInvoiceAccountService"
+		ref="PInvoiceAccountServiceImpl" timeout="1200000" />
+	<dubbo:service interface="com.rsr.service.PInvoiceDetailService"
+		ref="PInvoiceDetailServiceImpl" timeout="1200000" />
+	<dubbo:service interface="com.rsr.service.PInvoiceOrderHistoryService"
+		ref="PInvoiceOrderHistoryServiceImpl" timeout="1200000" />
+	<dubbo:service interface="com.rsr.service.PInvoiceOrderService"
+		ref="PInvoiceOrderServiceImpl" timeout="1200000" />
+	<dubbo:service interface="com.rsr.service.PInvoiceOrderWpayMsgService"
+		ref="PInvoiceOrderWpayMsgServiceImpl" timeout="1200000" />
+	<dubbo:service interface="com.rsr.service.PInvoiceRegionService"
+		ref="PInvoiceRegionServiceImpl" timeout="1200000" />
+	<dubbo:service interface="com.rsr.service.PInvoiceTitleService"
+		ref="PInvoiceTitleServiceImpl" timeout="1200000" />
+	<dubbo:service interface="com.rsr.service.PInvoiceOrderRefundService"
+		ref="PInvoiceOrderRefundServiceImpl" timeout="1200000" />
+	<dubbo:service interface="com.rsr.service.PInvoiceOrderRefundHistoryService"
+		ref="PInvoiceOrderRefundHistoryServiceImpl" timeout="1200000" />
+	<dubbo:service interface="com.rsr.service.PInvoiceValidateService"
+		ref="PInvoiceValidateServiceImpl" timeout="1200000" />	
+		
+</beans>

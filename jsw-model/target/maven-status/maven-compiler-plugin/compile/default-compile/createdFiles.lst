@@ -1,0 +1,6 @@
+com\jsw\entity\OrderCouponDetails.class
+com\jsw\entity\BaseEntity.class
+com\jsw\entity\BaseEntityRsr.class
+com\jsw\entity\Log.class
+com\jsw\entity\OrderCoupon.class
+com\jsw\entity\Page.class
